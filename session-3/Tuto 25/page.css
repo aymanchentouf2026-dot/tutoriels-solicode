@@ -1,0 +1,36 @@
+
+/* css/global.css */
+body {
+    margin: 0;
+    background: #f9fafb;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+}
+/* css/components.css */
+.carte-article {
+    width: 300px;
+    background: white; /* Contraste avec le body */
+    border: 1px solid #e5e7eb;
+    margin-bottom: 24px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+/* css/components.css */
+.etiquette-categorie {
+    display: inline-block;
+    margin: 16px 16px 0;
+    padding: 6px 10px;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 99px;
+    background: #f0f6ff;
+    color: #1c5bba;
+}
+
+.carte-meta {
+    margin-top: 20px;
+    padding-top: 16px;
+    font-size: 12px;
+    color: #9ca3af;
+    border-top: 1px solid #f3f4f6;
+}
