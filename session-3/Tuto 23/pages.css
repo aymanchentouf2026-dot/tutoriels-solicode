@@ -1,0 +1,47 @@
+.boite {
+    border: 4px solid #3b82f6;
+    
+    /* Repousse le texte à 20px du bord bleu (vers l'intérieur) */
+    padding: 20px; 
+    
+    /* Repousse les autres boîtes à 40px du bord bleu (vers l'extérieur) */
+    margin: 40px; 
+}
+/* css/pages.css */
+.conteneur-articles {
+    max-width: 1200px;
+    /* La marge "auto" à gauche et à droite centre l'élément */
+    margin: 0 auto; 
+}
+.carte-article {
+    width: 300px;
+    background: #f9fafb;
+    border: 2px solid #e5e7eb;
+}
+.carte-contenu {
+    padding: 30px;
+}
+* {
+    box-sizing: border-box;
+}
+/* css/components.css */
+.carte-contenu {
+    padding: 20px;
+}
+/* css/components.css */
+.carte-article {
+    /* ... (règles précédentes de fond et bordure) ... */
+    margin-bottom: 24px;
+}
+/* css/components.css */
+.carte-contenu h3 {
+    margin: 0; /* Enlève la marge par défaut du titre */
+}
+
+.carte-contenu p {
+    margin: 12px 0; /* 12px en haut et en bas, 0 à gauche et à droite */
+}
+/* css/pages.css */
+.section-articles {
+    padding: 80px 24px;
+}
