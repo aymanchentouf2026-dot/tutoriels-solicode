@@ -1,3 +1,6 @@
+<?php
+require_once __DIR__ . '/index.php';
+?>
 <?php foreach ($articles as $article): ?>
 
     <div class="carte-contenu">
