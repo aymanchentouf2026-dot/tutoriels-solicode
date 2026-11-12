@@ -62,10 +62,11 @@
                 <h2>Explorer par thème</h2>
                 <div class="liste-filtres">
                     <a href="public-index.html" class="pilule-filtre actif">Tous les articles</a>
-                    <a href="public-categorie.html" class="pilule-filtre">Développement</a>
-                    <a href="public-categorie.html" class="pilule-filtre">Design UI/UX</a>
-                    <a href="public-categorie.html" class="pilule-filtre">Productivité</a>
-                    <a href="public-categorie.html" class="pilule-filtre">Management</a>
+                    <?php foreach ($categories as $cat): ?>
+                        <a href="categorie.php?id=<?= $cat['id'] ?>" class="pilule-filtre">
+                            <?= htmlspecialchars($cat['libelle']) ?>
+                        </a>
+                    <?php endforeach; ?>
                 </div>
             </section>
 

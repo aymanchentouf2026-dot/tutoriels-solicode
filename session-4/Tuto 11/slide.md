@@ -1,8 +1,8 @@
 # Veille technologique : Modularité et fonctions en PHP
 
 ## 1. Technologie
-- **Nom :** PHP
-- **Logo :** PHP Official Logo
+- **Nom :** Ayman
+- **Logo :** PHP 
 
 ## 2. Définition
 La modularité en PHP consiste à diviser le code en plusieurs fichiers et fonctions réutilisables pour organiser le projet et éviter la répétition du code.
