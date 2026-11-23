@@ -1,0 +1,41 @@
+
+<?php
+// fonctions.php — Module de gestion des données du Blog
+
+/**
+ * Renvoie la liste des derniers articles publiés
+ * @return array Collection d'articles
+ */
+function get_derniers_articles() {
+    return [
+        [
+            'id' => 1,
+            'titre' => 'Comment structurer ses composants UI avec Atomic Design ?',
+            'contenu' => 'Découvrez les concepts fondamentaux pour concevoir des composants modulaires.',
+            'image' => 'article-example.png',
+            'date_creation' => '2026-02-14',
+            'categorie_libelle' => 'Développement',
+            'categorie_couleur' => 'bleu'
+        ],
+        [
+            'id' => 2,
+            'titre' => 'Maîtriser les micro-interactions UX',
+            'contenu' => 'Une interface belle n\'est pas suffisante : découvrez comment améliorer l\'expérience.',
+            'image' => 'article-example.png',
+            'date_creation' => '2026-02-10',
+            'categorie_libelle' => 'Design UI/UX',
+            'categorie_couleur' => 'rose'
+        ]
+    ];
+}
+
+/**
+ * Renvoie la liste des catégories disponibles pour le filtrage
+ * @return array Collection des catégories
+ */
+function get_categories() {
+    return [
+        ['id' => 1, 'libelle' => 'Développement'],
+        ['id' => 2, 'libelle' => 'Design UI/UX']
+    ];
+}
